@@ -1,0 +1,139 @@
+/* Mengatur gaya dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Gaya header dan navigasi */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* Gaya untuk bagian hero */
+.hero {
+    background-image: url('dowlond.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+/* Gaya untuk konten utama */
+.content,
+.gallery,
+.testimonial,
+.contact {
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.content h2,
+.gallery h2,
+.testimonial h2,
+.contact h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #444;
+}
+
+/* Gaya untuk galeri makanan */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk testimoni dan kontak */
+.testimonial,
+.contact {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.testimonial p,
+.contact p {
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ddd;
+}
+
+/* style.css */
+.carousel-item img {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+  }
+
+ 
